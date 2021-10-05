@@ -1,0 +1,321 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background: url(./images/shara_desert.jpg);
+    background-attachment: fixed;
+}
+
+
+.main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 10px 60px ;
+    margin-top: 25px;
+    width: 100%;
+
+
+}
+
+.camel{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 10px 60px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.home{
+    margin-left: 30px;
+}
+
+.home a{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+}
+
+
+
+.region{
+    margin-left: 30px;
+}
+
+.region a{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+}
+
+.about{
+    margin-left: 30px;
+
+}
+
+.about a{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+}
+
+.icon{
+    margin-left: 30px;
+
+}
+.icon a{
+    color: white;
+}
+
+.sahara{
+    width: 600px;
+    margin-left: 10px;   
+    
+    
+}
+.sahara-card{
+    margin-top: 212px;
+    padding: 20px;
+}
+
+.sahara-card>span{
+    font-size: 50px;
+}
+
+button>a{
+    text-decoration: none;
+    color: black;
+}
+button>a:hover{
+    color: rgb(240, 85, 13);
+}
+button{
+    padding: 10px;
+    width: 184px;
+    height: 46px;
+    background: rgb(16, 157, 212); 
+    border: none;
+    border-radius: 23px;
+    font-size: 14px;
+    margin-top: 18px;
+
+}
+button:hover{
+    background:rgb(114, 215, 240);
+    
+}
+
+.card-flex{
+    display: flex;
+    flex-direction: row;
+    width: 600px;
+    flex-wrap: wrap;
+    margin-left: 100px;
+    margin-top: 50px;
+    justify-content: space-evenly;
+    
+}
+
+.western-desert{
+    width: 250px;
+    height: 300px;
+    border-radius: 20px;
+    background: url(./images/pic-1.png);
+    background-size: cover;
+    transition: transform .2s;
+    padding: 10px 10px;
+}
+
+
+div>p{
+    color: white;
+    font-size: 17px;
+}
+div>span{
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+
+}
+
+
+.card-flex div:hover{
+    transform: translateY(-10px);    
+
+}
+
+.ai-bagawat{
+    width: 250px;
+    height: 300px;
+    border-radius: 20px;
+    background: url(./images/pic-2.png);
+    background-size: cover;
+    margin-bottom: 20px;
+    transition: transform .2s;
+    padding: 10px 10px;
+
+
+
+
+}
+
+.pyramid{
+    width: 250px;
+    height: 300px;
+    border-radius: 20px;
+    background: url(./images/pic-3.png);
+    background-size: cover;
+    transition: transform .2s;
+    padding: 10px 10px;
+
+
+}
+
+.kalahari-desert{
+    width: 250px;
+    height: 300px;
+    border-radius: 20px;
+    background: url(./images/pic-4.png);
+    background-size: cover;
+    transition: transform .2s;
+    padding: 10px 10px;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:300px) and (max-width:380px){
+
+
+
+
+
+    .menu{
+        display: flex;
+flex-direction: column;
+justify-content: flex-end;
+padding: 10px 60px;
+margin-top: 25px;
+margin-left: 125px;
+
+
+}
+
+    
+.main{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+}
+
+    
+    body{
+        margin: 0px;
+        padding: 0px;
+        background: url(./images/shara_desert.jpg);
+        background-repeat: repeat-y;
+    }
+
+    .sahara{
+        width: 300px;
+        margin-left: 10px;   
+        font-size: 17px;
+        color: white;
+        
+    }
+    
+    .card-flex{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin-left: 50px;
+    }
+        
+    .sahara-card{
+        margin-top: -46px;
+    
+    }
+
+    .western-desert{
+        
+        transition: .2s;
+        margin-bottom: 20px;
+        
+    }
+    
+    .card-flex div:hover{
+        transform: translateY(-10px);    
+    
+    }
+    
+    .ai-bagawat{
+       
+        transition: transform .2s;
+    
+    
+    
+    }
+    
+    .pyramid{
+        margin-bottom: 20px;
+        transition: transform .2s;
+    
+    }
+    
+    .kalahari-desert{
+       
+        transition: transform .2s;
+    
+    }
+
+
+}
+
+
+
+
+
+
